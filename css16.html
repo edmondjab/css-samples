@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: fixed;</h2>
+
+<p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+<div class="fixed">
+This div element has position: fixed;
+</div>
+
+</body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 7px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+<p>Note: IE/Edge 15 and earlier versions do not support sticky position.</p>
+
+<div class="sticky">I am sticky!</div>
+
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+
+</body>
+</html>
+
+<hr>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<img src="images pix.jpg" width="150" height="150">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+</body>
+</html>
+
+
+<hr>
+
+<br>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+div.container {
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Cards</h2>
+
+<p>The box-shadow property can be used to create paper-like cards:</p>
+
+<div class="card">
+  <div class="header">
+    <h1>1</h1>
+  </div>
+
+  <div class="container">
+    <p>January 1, 2016</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<hr>
+<br>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+* {
+   font-family: myFirstFont;
+}
+</style>
+</head>
+<body>
+
+<h1>The @font-face Rule</h1>
+
+<div>
+With CSS, websites can use fonts other than the pre-selected "web-safe" fonts.
+</div>
+
+<p><b>Note:</b> Internet Explorer 8 and earlier, do not support the @font-face rule.</p>
+
+</body>
+</html>
+
+
+<hr>
+<br>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+* {
+   font-family: myFirstFont;
+}
+</style>
+</head>
+<body>
+
+<h1>The @font-face Rule</h1>
+
+<div>
+With CSS, websites can use <b>fonts other than the pre-selected "web-safe" fonts</b>.
+</div>
+
+<p><b>Note:</b> Internet Explorer 8 and earlier, do not support the @font-face rule.</p>
+
+</body>
+</html>
+
+
+<hr>
+<br>
+

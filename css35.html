@@ -1,0 +1,155 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+</style>
+</head>
+<body>
+
+<p>Let the div element retain the style values from the last keyframe when the animation ends:</p>
+
+<div></div>
+
+<p><strong>Note:</strong> The animation-fill-mode property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
+
+<hr>
+
+
+<!DOCTYPE html>
+<html>
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+<p>Move the mouse over the text below:</p>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+
+<p>Note that the position of the tooltip text isn't very good. Go back to the tutorial and continue reading on how to position the tooltip in a desirable way.</p>
+
+</body>
+</html>
+
+
+
+
+<hr>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<h2>Rounded Images</h2>
+<p>Use the border-radius property to create rounded images:</p>
+
+<img src="images pix.jpg" alt="Paris" width="300" height="300">
+
+</body>
+</html>
+
+
+
+<hr>
+<br>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {font-size: 10px;}
+.button2 {font-size: 12px;}
+.button3 {font-size: 16px;}
+.button4 {font-size: 20px;}
+.button5 {font-size: 24px;}
+</style>
+</head>
+<body>
+
+<h2>Button Sizes</h2>
+<p>Change the font size of a button with the font-size property:</p>
+
+<button class="button">Green</button>
+<button class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+
+</body>
+</html>
+
+
+
+
+<hr>
+<br>
+
